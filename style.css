@@ -1,1 +1,141 @@
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body{
+    background-color: #87CBAC;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    color: #2b5240;
+}
+
+.pic{
+    margin-top: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    background-color: #9be9c6;
+    backdrop-filter: blur(20px);
+}
+
+@keyframes pop{
+    from{
+        opacity: 0;
+        transform: translatey(300px);
+        
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.pic>img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: -150px;
+    animation: pop cubic-bezier(0.88, 0.3, 0, 1.43) 1.0s 1;
+    /* margin: 0 0 0 30%; */
+}
+
+h1{
+    transform: translateY(10px);
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    animation: pop cubic-bezier(0.55, 0.46, 0, 1.43) 2.0s 1;
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    transform: translateY(-20px);
+    animation: pop cubic-bezier(0.55, 0.46, 0, 1.43) 2.5s 1;
+}
+
+.github{
+    margin: 0;
+    height: 65px;
+    width: 65px;
+    transform: translateY(-30px);
+    background: url("https://img.icons8.com/material-rounded/64/000000/github.png") no-repeat 6px center;
+    animation: pop cubic-bezier(0.88, 0.3, 0, 1.43) 3.0s 1;
+}
+
+
+
+
+/* 
+p{
+    margin: 0;
+    color: #000000;
+    animation: loopp ease-in 4.0s forwards;
+}
+
+
+
+.container{
+    background: #32b188;
+    border-radius: 16px;
+    display: grid;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    place-items: center;
+    position: relative;
+}
+
+
+.box{
+    --delay: 1s;
+    animation: loopp 10s linear infinite;
+    animation-delay: var(--delay);
+    background-color: #8DE4FF;
+    height: 100px;
+    opacity: 0.9;
+    position: absolute;
+    width: 100px;
+}
+
+.box:nth-child(2){
+    --delay: 2s;
+}
+.box:nth-child(3){
+    --delay: 3s;
+}
+.box:nth-child(4){
+    --delay: 4s;
+}
+.box:nth-child(5){
+    --delay: 5s;
+}
+.box:nth-child(6){
+    --delay: 6s;
+}
+.box:nth-child(7){
+    --delay: 7s;
+}
+.box:nth-child(8){
+    --delay: 8s;
+}
+.box:nth-child(9){
+    --delay: 9s;
+}
+.box:nth-child(10){
+    --delay: 10s;
+}
+
+@keyframes loopp{
+    from{
+        opacity: 0.5;
+        transform: scale(0);
+    }
+    to{
+        opacity: 0;
+        transform: scale(3.85);
+    }
+}  */

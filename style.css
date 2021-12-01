@@ -40,7 +40,6 @@ body{
     border-radius: 50%;
     margin-top: -150px;
     animation: pop cubic-bezier(0.88, 0.3, 0, 1.43) 1.0s 1;
-    /* margin: 0 0 0 30%; */
 }
 
 h1{

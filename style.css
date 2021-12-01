@@ -22,24 +22,12 @@ body{
     backdrop-filter: blur(20px);
 }
 
-@keyframes pop{
-    from{
-        opacity: 0;
-        transform: translatey(300px);
-        
-    }
-    to{
-        opacity: 1;
-    }
-}
-
 .pic>img{
     height: 250px;
     width: 250px;
     border-radius: 50%;
     margin-top: -150px;
     animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 1.0s 1;
-    /* margin: 0 0 0 30%; */
 }
 
 h1{
@@ -49,6 +37,7 @@ h1{
     font-size: 50px;
     animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 2.0s 1;
 }
+
 h3{
     font-family: 'DM Sans', sans-serif;
     font-size: 30px;
@@ -63,4 +52,15 @@ h3{
     transform: translateY(-30px);
     background: url("https://img.icons8.com/material-rounded/64/000000/github.png") no-repeat 6px center;
     animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 3.0s 1;
+}
+
+@keyframes pop{
+    from{
+        opacity: 0;
+        transform: translatey(300px);
+        
+    }
+    to{
+        opacity: 1;
+    }
 }

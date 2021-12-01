@@ -28,7 +28,7 @@ body{
     width: 250px;
     border-radius: 50%;
     margin-top: -150px;
-    animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 1.0s 1;
+    animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 1.5s 1;
 }
 
 h1{

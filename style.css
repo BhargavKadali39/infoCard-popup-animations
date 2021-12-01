@@ -1,13 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 body{
-    background-color: #87CBAC;
+    background-color: #EF5D60;
     margin: 0%;
     padding: 0%;
     display: flex;
     justify-content: center;
-    color: #2b5240;
+    color: #311847;
 }
 
 .pic{
@@ -19,41 +18,9 @@ body{
     align-items: center;
     height: 500px;
     width: 700px;
-    background-color: #9be9c6;
+    background-color: #E09F7D;
     backdrop-filter: blur(20px);
 }
-
-.pic>img{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin-top: -150px;
-    animation: pop cubic-bezier(0.88, 0.3, 0, 1.43) 1.0s 1;
-}
-
-h1{
-    transform: translateY(10px);
-    margin: 0;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 50px;
-    animation: pop cubic-bezier(0.55, 0.46, 0, 1.43) 2.0s 1;
-}
-h3{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 30px;
-    transform: translateY(-20px);
-    animation: pop cubic-bezier(0.55, 0.46, 0, 1.43) 2.5s 1;
-}
-
-.github{
-    margin: 0;
-    height: 65px;
-    width: 65px;
-    transform: translateY(-30px);
-    background: url("https://img.icons8.com/material-rounded/64/000000/github.png") no-repeat 6px center;
-    animation: pop cubic-bezier(0.88, 0.3, 0, 1.43) 3.0s 1;
-}
-
 
 @keyframes pop{
     from{
@@ -66,5 +33,34 @@ h3{
     }
 }
 
+.pic>img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: -150px;
+    animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 1.0s 1;
+    /* margin: 0 0 0 30%; */
+}
 
+h1{
+    transform: translateY(10px);
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 2.0s 1;
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    transform: translateY(-20px);
+    animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 2.5s 1;
+}
 
+.github{
+    margin: 0;
+    height: 65px;
+    width: 65px;
+    transform: translateY(-30px);
+    background: url("https://img.icons8.com/material-rounded/64/000000/github.png") no-repeat 6px center;
+    animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 3.0s 1;
+}

@@ -19,7 +19,8 @@ body{
     height: 500px;
     width: 700px;
     background-color: #E09F7D;
-    backdrop-filter: blur(20px);
+    box-shadow:  5px 5px 10px #602526,
+        -5px -5px 10px #ff959a;
 }
 
 .pic>img{

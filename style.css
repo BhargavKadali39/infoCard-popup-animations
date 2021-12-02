@@ -10,7 +10,7 @@ body{
 }
 
 .pic{
-    margin: 13% 30px 0 30px;
+    margin: 13% 0 0 0;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;

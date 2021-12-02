@@ -10,17 +10,17 @@ body{
 }
 
 .pic{
-    margin: 20% 30px 0 30px;
+    margin: 13% 30px 0 30px;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     height: 500px;
-    width: 700px;
+    width: 60%;
     background-color: #E09F7D;
     box-shadow:  5px 5px 10px #602526,
-    -5px -5px 10px #ff959a;
+        -5px -5px 10px #ff959a;
 }
 
 
@@ -29,9 +29,8 @@ body{
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    margin-top: -150px;
+    margin-top: -20%;
     animation: popg2 cubic-bezier(0.82, 0.76, 0.19, 1.58) 2.5s 1;
-    /* margin: 0 0 0 30%; */
 }
 
 h1{
@@ -39,6 +38,7 @@ h1{
     margin: 0;
     font-family: 'DM Sans', sans-serif;
     font-size: 50px;
+    text-align: center;
     animation: pop cubic-bezier(0.82, 0.76, 0.35, 1.32) 2.0s 1;
 }
 h3{
@@ -90,3 +90,4 @@ h3{
         opacity: 1;
     }
 }
+

@@ -54,7 +54,7 @@ h3{
 
 .github{
     margin: 0;
-    height: 70px;
+    height: 100px;
     width: 70px;
     transform: translateY(-30px) scale(1.5);
     background: url("github.png") no-repeat 6px center;
